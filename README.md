@@ -6,5 +6,19 @@ both you and me!
 
 # Usage
 
-To start the installation, begin by cloning the repository.
+To start the installation, begin by cloning the repository and running the bootstrap script.
 
+```bash
+git clone https://github.com/D1noD3v/dotfiles.git
+cd dotfiles
+sudo ./ubuntu_bootstrap.sh
+```
+## Addtional packages
+You may change the  ```packages.txt```  to include whatever packages you would like to install.
+In order for it to work you need to structure the package names like this:
+
+```
+python3
+curl
+wget
+```
