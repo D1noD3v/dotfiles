@@ -8,7 +8,6 @@ both you and me!
 
 To start the installation, begin by cloning the repository and running the bootstrap script.
 
-Linux
 ```bash
 git clone https://github.com/D1noD3v/dotfiles.git
 cd dotfiles
