@@ -12,7 +12,7 @@ To start the installation, begin by cloning the repository.
 git clone https://github.com/D1noD3v/dotfiles.git
 cd dotfiles
 ``` 
-After this, you may change the ´´´packeges.txt´´´ to include whatever packages you would like to install.
+After this, you may change the  ```packages.txt```  to include whatever packages you would like to install.
 In order for it to work you need to structure the package names like this:
 
 ```
