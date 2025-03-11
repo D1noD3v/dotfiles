@@ -36,7 +36,7 @@ if [[ $node_choice == "y" ]]; then
     curl -o- https://raw.githubusercontent.com/nvm-sh/nvm/v0.40.1/install.sh | bash
 
     # in lieu of restarting the shell
-    \. "dinodev/.nvm/nvm.sh" # replace with your own home directory
+    \. "$HOME/.nvm/nvm.sh" # replace with your own home directory
 
     # Download and install Node.js:
     nvm install 23
